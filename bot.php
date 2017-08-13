@@ -30,7 +30,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "ฉันไม่เข้าใจคำสั่ง";
+  $arrPostData['messages'][0]['text'] = "ขอโทษด้วย ยังไม่พบข่าวนี้ครับ ลองตรวจสอบดูว่าพิมพ์ 3 คำแรกของข่าวที่ได้รับมาถูกต้องไหม ถ้าถูกแล้วแสดงว่าเรายังไม่ได้รับข่าวนี้ครับ";
 }
  
  
